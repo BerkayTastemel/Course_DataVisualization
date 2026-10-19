@@ -1,5 +1,3 @@
-# Mini Quiz: Visualizing Distributions (Violin Plot)
-
 ### Important Rules
 - **No AI Tools:** The use of AI assistants (ChatGPT, Copilot, Gemini, Claude, etc.) is strictly prohibited.
 - **Allowed Resources:** You may use the course slides, official R documentation, and the [R Graph Gallery (Violin Plot section)](https://r-graph-gallery.com/violin.html).
@@ -27,8 +25,8 @@ Using `ggplot2` and referencing the **[R Graph Gallery - Violin Plot](https://r-
 
 1. Create a violin plot showing the distribution of `Sepal.Length` across different `Species`.
 2. Map `Species` to the fill color aesthetic so that each group has a distinct fill color.
-3. Add appropriate axis labels and a clear title to the plot using `labs()`.
-4. Apply a clean theme (e.g., `theme_minimal()`, `theme_light()`, or `theme_classic()`).
+3. Add appropriate axis labels and a clear title to the plot using.
+4. Apply a clean theme.
 
 ---
 
@@ -37,8 +35,6 @@ Using `ggplot2` and referencing the **[R Graph Gallery - Violin Plot](https://r-
   ```r
   ggsave("firstname_lastname_violin.png", width = 8, height = 5, dpi = 300)
   ```
-- Name your files following the convention:
-  - Script: `firstname_lastname_quiz.R`
-  - Plot: `firstname_lastname_violin.png`
+- Name your plot: `firstname_lastname_task3.png`
 - Commit both your R script and the `.png` file to your branch.
 - Open a Pull Request to this repository with your **Full Name** and **Student ID** in the title.
